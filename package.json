@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SahithaDev/MyPortfolio.git"
+  },
+  "keywords": [
+    "sahitha"
+  ],
+  "author": "sahitha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SahithaDev/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/SahithaDev/MyPortfolio#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "dom": "^0.0.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "router": "^2.2.0"
+  }
+}
