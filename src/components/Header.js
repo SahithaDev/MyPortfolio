@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
 // import { LOGO_URL } from "../utils/constants";
 const Header = () => {
   return (
@@ -8,10 +9,18 @@ const Header = () => {
       </div>
       <div>
         <ul className="flex gap-10 m-8 text-white ">
-          <li>Home</li>
-          <li>About me</li>
-          <li>Projects</li>
-          <li>Experience</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About me</Link>
+          </li>
+          <li>
+            <Link to="/project">Projects</Link>
+          </li>
+          <li>
+            <Link to="/exp">Experience</Link>
+          </li>
           <button>Download CV</button>
         </ul>
       </div>
