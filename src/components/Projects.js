@@ -1,4 +1,10 @@
 const Projects = () => {
-  return <h1>ill put my projects here</h1>;
+  return (
+    <div name="project" className="min-h-screen">
+      <div>
+        <h1>Sahitha's projects</h1>
+      </div>
+    </div>
+  );
 };
 export default Projects;

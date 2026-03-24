@@ -1,4 +1,10 @@
-const EXperience = () => {
-  return <h1>Shiath</h1>;
+const Experience = () => {
+  return (
+    <div name="exp" className="min-h-screen">
+      <div>
+        <h1>Sahitha's experience</h1>
+      </div>
+    </div>
+  );
 };
-export default EXperience;
+export default Experience;

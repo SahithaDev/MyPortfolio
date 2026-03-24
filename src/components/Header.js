@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import { Link } from "react-router-dom";
+import { Link, Element } from "react-scroll";
 // import { LOGO_URL } from "../utils/constants";
 const Header = () => {
   return (
@@ -10,16 +10,24 @@ const Header = () => {
       <div>
         <ul className="flex gap-10 m-8 text-white ">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="body" smooth={true} duration={500}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/about">About me</Link>
+            <Link to="about" smooth={true} duration={500}>
+              About me
+            </Link>
           </li>
           <li>
-            <Link to="/project">Projects</Link>
+            <Link to="project" smooth={true} duration={500}>
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to="/exp">Experience</Link>
+            <Link to="exp" smooth={true} duration={500}>
+              Experience
+            </Link>
           </li>
           <button>Download CV</button>
         </ul>
